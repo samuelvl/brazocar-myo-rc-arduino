@@ -1,4 +1,4 @@
-# Compiling the app
+# Compiling the App
 
 Import both folders (BrazoCar and MyoSdk) as Eclipse projects. 
 ```
