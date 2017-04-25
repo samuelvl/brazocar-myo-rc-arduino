@@ -1,4 +1,4 @@
-# Brazocar Android application
+# Brazocar Android App
 
 Android application to control an **RC Car** based on **Arduino** using your arm as the controller thanks to **[Myo Armband](https://www.myo.com)** device and **Bluetooth technology**.
 
