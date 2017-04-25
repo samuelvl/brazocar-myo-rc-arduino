@@ -30,9 +30,9 @@ Developed jointly by **[@samvrocks](https://github.com/samvrocks)** and **[@Javi
 
 3. Press **GO!** and take control of the RC car using next **available gestures**:
 <p align="center">
-  <img border="0" src="imgs/gestures.png">
+  <img border="0" src="imgs/screenshot.png" width="200">
 </p>
 
 <p align="center">
-  <img border="0" src="imgs/screenshot.png" width="200">
+  <img border="0" src="imgs/gestures.png">
 </p>
