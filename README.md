@@ -6,10 +6,6 @@ Android application to control an RC Car based on Arduino using your arm as the 
 </p>
 
 <p align="center">
-  <img src="imgs/diagram.png">
-</p>
-
-<p>
   <a href="https://www.youtube.com/watch?v=PfhPWDUyZ_s">
     <img border="0" alt="Go to YouTube video" src="https://img.youtube.com/vi/PfhPWDUyZ_s/0.jpg">
   </a>
