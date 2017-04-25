@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <!-- App -->
+    <color name="background">#FFFFFF</color>
+    <color name="text">#000000</color>
+    
+    <!-- Title -->
+    <color name="title_background">#CCCCCC</color>
+    <color name="title_text">#000000</color>
+    
+    <!-- Speed label -->
+    <color name="led_color">#00FF00</color>
+    
+</resources>

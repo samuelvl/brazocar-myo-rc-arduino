@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Titles -->
+    <string name="app_name">BrazoCar</string>
+    <string name="activity_main_name">BrazoCar</string>
+    <string name="activity_manager_name">Control Panel</string>
+    
+    <!-- MainActivity -->
+    <string name="pair_myo">Pair Myo</string>
+    <string name="img_myo_status">Status of Myo device</string>
+    
+    <string name="pair_rc">Pair RC-Car</string>
+    <string name="img_rc_status">Status of RC device</string>
+    
+    <string name="text_open_manager">GO!</string>
+    <string name="text_close_app">Quit</string>
+    
+    <!-- RCDevicesActivity -->
+    <string name="rc_devices_activity">Choose RC Device</string>
+    <string name="rc_devices_refresh">Refresh</string>
+    
+    <!-- MyoDevicesActivity -->
+    <string name="myo_devices_activity">Choose Myo Device</string>
+    <string name="myo_devices_refresh">Refresh</string>
+    
+    <!-- Speed values -->
+    <string name="left_wheel_speed">0%</string>
+    <string name="wheel_speed">0 m/s</string>
+    <string name="right_wheel_speed">0%</string>
+    
+    <!-- EmptyString -->
+    <string name="empty_string"></string>
+    
+</resources>

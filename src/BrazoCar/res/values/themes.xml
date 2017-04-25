@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Custom theme -->
+    <style name="custom_theme" parent="android:Theme">
+        
+        <!-- General -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/text</item>
+        
+        <!-- ActionBar OFF -->
+        <item name="android:windowActionBar">false</item>
+    	<item name="android:windowNoTitle">true</item>
+    	
+    </style>
+	
+</resources>

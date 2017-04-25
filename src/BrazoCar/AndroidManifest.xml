@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dam.brazocar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+    
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/general_favicon"
+        android:label="@string/app_name"        
+		android:theme="@style/custom_theme" >
+		
+        <!-- MAIN ACTIVITY -->
+        <activity
+            android:name="dam.brazocar.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>            
+        </activity>
+        
+        <!-- BLUETOOTH SCAN ACTIVITIES -->
+         <activity 
+            android:name="dam.brazocar.bluetoothScanActivities.MyoScanActivity" >
+        </activity>
+        <activity 
+            android:name="dam.brazocar.bluetoothScanActivities.HelepolisScanActivity" >
+        </activity>
+        
+        <!-- MANAGER ACTIVITY -->
+        <activity 
+            android:name="dam.brazocar.ManagerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+    </application>
+
+</manifest>

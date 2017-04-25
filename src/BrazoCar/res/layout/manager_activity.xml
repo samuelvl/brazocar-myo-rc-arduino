@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+		<!-- Title -->
+	    <include layout="@layout/title_bar" />  
+	    
+	    <!-- Layout -->
+    	<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:orientation="vertical" >
+	        
+    	    <!-- Connection state -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:paddingTop="10dp"
+				android:paddingBottom="10dp" >
+					<ImageView
+						android:id="@+id/myo_connection_state_img"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:contentDescription="@string/empty_string"
+						android:src="@drawable/manager_myo_nok"
+					/>
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="15dp"
+						android:paddingRight="15dp"
+						android:contentDescription="@string/empty_string"
+						android:src="@drawable/manager_arrow_connection"
+					/>
+					<ImageView
+						android:id="@+id/rc_connection_state_img"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:contentDescription="@string/empty_string"
+						android:src="@drawable/manager_arduino_nok"
+					/>
+			</LinearLayout>
+			
+			<!-- Separator line -->
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:background="@android:color/darker_gray"
+			/>
+	        
+			<!-- Current Myo gesture -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:paddingTop="10dp"
+				android:paddingBottom="10dp" >            
+				<ImageView
+					android:id="@+id/myo_gesture"
+					android:layout_width="200dp"
+					android:layout_height="200dp"
+					android:scaleType="fitXY"
+					android:contentDescription="@string/empty_string"
+					android:src="@drawable/manager_myo_gesture_ready"
+				/>
+			</LinearLayout>
+			
+			<!-- Separator line -->
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:background="@android:color/darker_gray"
+			/>
+			
+			<!-- Speed labels -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="fill_parent"
+				android:orientation="horizontal"
+				android:paddingTop="35dp"
+				android:gravity="center" >					
+					<TextView
+					    android:id="@+id/text_left_speed"
+					    android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+		                android:text="@string/left_wheel_speed"
+		                android:textSize="20sp"
+		                android:background="@drawable/manager_wheel_label"
+					/>
+					<TextView
+					    android:id="@+id/text_speed"
+					    android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+		                android:text="@string/wheel_speed"
+		                android:textSize="40sp"
+		                android:textColor="@color/led_color"
+		                android:background="@drawable/manager_speed_label"
+					/>
+					<TextView
+					    android:id="@+id/text_right_speed"
+					    android:layout_width="wrap_content"
+						android:layout_height="wrap_content"						
+						android:gravity="center"
+		                android:text="@string/right_wheel_speed"
+		                android:textSize="20sp"
+		                android:background="@drawable/manager_wheel_label"
+					/>
+			</LinearLayout>			
+	    </LinearLayout>
+   
+</LinearLayout>
