@@ -28,7 +28,7 @@ Developed jointly by **[@samvrocks](https://github.com/samvrocks)** and **[@Javi
   <img border="0" src="imgs/pairing.png">
 </p>
 
-3. Press GO! and take control of the RC car using next available gestures:
+3. Press **GO!** and take control of the RC car using next **available gestures**:
 <p align="center">
   <img border="0" src="imgs/gestures.png">
 </p>
