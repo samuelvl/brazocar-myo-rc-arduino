@@ -1,6 +1,9 @@
 # Brazocar Android application
 
-Android application to control an RC Car based on Arduino using your arm as the controller thanks to Myo Armband device and Bluetooth technology:
+Android application to control an **RC Car** based on **Arduino** using your arm as the controller thanks to **[Myo Armband](https://www.myo.com)** device and **Bluetooth technology**.
+
+Developed jointly by **@samvrocks** and **@Javierma**.
+
 <p align="center">
   <img border="0" src="imgs/diagram.png">
 </p>
@@ -11,4 +14,25 @@ Android application to control an RC Car based on Arduino using your arm as the 
     <br/>
     <b>Watch demo on YouTube!</b>
   </a>
+</p>
+
+## Requirements
+* Android 4.0 device or higher.
+* **[Helepolis Arduino Car](https://github.com/Javierma/Helepolis)** (developed by AETEL Telecom Electronics Society).
+* **[Myo Armband device](https://www.myo.com)**.
+
+## Instruction Manual
+1. Download **[Brazocar APK](src/BrazoCar/bin/BrazoCar.apk)** and install it on your Android device (Android 4.0 or higher is needed).
+2. Open the app and pair **Myo Armband** device and **Helepolis Arduino Car**.
+<p align="center">
+  <img border="0" src="imgs/pairing.png">
+</p>
+
+3. Press GO! and take control of the RC car using next available gestures:
+<p align="center">
+  <img border="0" src="imgs/gestures.png">
+</p>
+
+<p align="center">
+  <img border="0" src="imgs/screenshot.png">
 </p>
